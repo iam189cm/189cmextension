@@ -1,0 +1,2 @@
+/* TODO: 256x256 黑色背景 + 默认字体 */
+body{margin:0;background:#000;color:#fff;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:256px;width:256px;}

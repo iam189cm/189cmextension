@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "QuickTranslate AI 翻译",
+  "description": "一键整页 / 选中文本 AI 翻译 (英语→中文)",
+  "version": "0.1.0",
+  "action": {
+    "default_popup": "src/popup/popup.html",
+    "default_title": "QuickTranslate"
+  },
+  "background": {
+    "service_worker": "src/background/background.js"
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Shift+Alt+T"
+      },
+      "description": "翻译当前页面或选中文本"
+    }
+  }
+}
