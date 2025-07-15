@@ -1,0 +1,30 @@
+{
+  "name": "quicktranslate_skeleton",
+  "version": "1.0.0",
+  "description": "这是 MVP 代码骨架，仅含空文件与 TODO 注释，便于后续扩展。",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iam189cm/189cmextension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iam189cm/189cmextension/issues"
+  },
+  "homepage": "https://github.com/iam189cm/189cmextension#readme",
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
+  },
+  "devDependencies": {
+    "@types/webextension-polyfill": "^0.12.3",
+    "typescript": "^5.8.3"
+  }
+}
